@@ -1,0 +1,1678 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('slick.css');
+@import url('slick-theme.css');
+
+
+
+
+
+body {font-family: 'Raleway', sans-serif; background:#fff;margin: 0; padding: 0; font-size: 14pt;font-weight: normal;  overflow-x:  hidden;}
+p{font-family: 'Raleway', sans-serif; padding: 0px; margin: 0px 0 15px; font-size: 14pt; line-height: 150%; color: #676767; font-weight: normal;}
+a{padding: 0px; margin: 0px; outline: none;}
+ul{ list-style: none; padding: 0px; margin: 0px;}
+ul li{padding: 0px; margin: 0px;}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Raleway', sans-serif;padding: 0px; margin: 0px;}
+
+a{ text-decoration:none; color: #2e75b5;}
+a:hover{ outline: none !important; text-decoration: none; color: #2e75b5;}
+a:active{ outline: none !important; text-decoration: none;}
+a:focus{ outline: none !important; text-decoration: none;}
+
+a,a:hover,.btn,.btn:hover{transition: all .7s;}
+
+input[type="text"]::-webkit-input-placeholder { opacity: 1; }
+input[type="text"]::-moz-placeholder { opacity: 1; }
+input[type="search"]::-webkit-input-placeholder { opacity: 1; }
+input[type="search"]::-moz-placeholder { opacity: 1; }
+input[type="email"]::-webkit-input-placeholder { opacity: 1; }
+input[type="email"]::-moz-placeholder { opacity: 1; }
+input[type="tel"]::-webkit-input-placeholder { opacity: 1; }
+input[type="tel"]::-moz-placeholder { opacity: 1; }
+
+
+textarea::-moz-placeholder { opacity: 1; }
+textarea::-webkit-placeholder { opacity: 1; }
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+
+img{max-width: 100%;}
+*::-moz-selection {background:#031b49;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+section{ padding-top:70px; padding-bottom:70px;}
+
+
+.title {margin:0 0 70px;padding:0 0 0 0;font-size:46pt;line-height:46px;font-weight:700;color: #292929;text-align: center;}
+.title h2{ color: #1f1f1f; font-weight: bold; font-size: 60pt;}
+.title h2 span{ font-weight: 300;}
+.title p{ font-size: 15pt; color: #676767; font-weight: normal;}
+
+
+.title3 h2{font-size: 35pt; text-align: left;}
+.title3 h2 span{ display: block; font-size: 200; font-size: 28pt; color: #757575;}
+.title3 h2:after{ width:100px; margin-left: 10px; border-bottom: 1px solid #000; content: ""; display: inline-block;}
+
+
+
+
+
+
+.btn-type1{font-family: 'Raleway', sans-serif; background-color:#db7a1b; font-size: 16pt; font-weight: 500; text-transform: none; color: #ffffff; text-shadow: none; padding: 15px 40px; border-radius:6px; letter-spacing: 0px;clear: both; display: inline-block; }
+.btn-type1:hover{background-color: #e72e19; color: #fff;text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Annimation effect css section-------------------------*/
+
+/*box animated effect*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------header section-------------------------*/
+
+.header {padding: 0;margin:0;background:#fff;width: 100%;}
+
+
+/*top bar*/
+.top-bar{ background-color: #031b49; padding-top: 0px; padding-bottom: 0px;}
+.top-bar ul{ margin-bottom: 0; display: inline-block;margin-top: 0px; width: 100%;}
+.top-bar ul li{font-family: 'Montserrat', sans-serif; display: inline-block; font-size: 13pt; color: #fff;font-weight: 400; border-left:1px solid #fff; padding: 0 8px;  }
+.top-bar ul li:first-child{ border-left:none; padding-left: 0;  }
+.top-bar ul li img{display: inline-block; max-width: 15pt;max-height: 20px; margin-right: 4px; position: relative; top: -1px;}
+
+
+
+.top-bar-r{justify-content: flex-end; display: flex;align-items: center;}
+.top-bar-r .btn {
+	background: #fea413;
+	border: none;
+	float: none;
+	font-size: 13pt;
+	color: #fff;
+	text-transform: none;
+	font-weight: 500;
+	padding: 10px 30px;
+	border-radius: 0;
+}
+.top-bar-r .btn:hover{ background:#e72e19; color: #fff;}
+.top-bar-r ul{ width: auto; margin-left: 30px;}
+.top-bar-r ul li{border-left:none; padding: 0 5px; }
+.top-bar-r ul li a{ color: #fff;}
+.top-bar-r ul li a:hover{ color: #204c87;}
+/*top bar*/
+
+
+.header.smaller { background-color:  #282828;}
+.logo {float: left; margin: 0px 0; padding:15px 0; max-width:390px;}
+.header_right {margin: 0;padding: 0;float: right;}
+
+
+
+
+.main-nav {margin:0;padding:0;position:relative;}
+.hide_logo, .menu-button, .search_hide {display:none;}
+
+.mainnav {float:none; padding:0; margin:15px 0 0;}
+.mainnav ul {margin:0;padding:0; text-align: right;}
+.mainnav ul li {margin:0;padding:0x;    display: inline-block;position: relative;}
+.mainnav ul li:last-child a{ padding-right: 0px;}
+.mainnav ul li a {color: #2b2b2b; padding: 10px 15px 10px; border-top: 2px solid transparent;border-bottom: 2px solid transparent; font-size: 13pt; line-height: 26px; font-weight: 500; display: block; text-transform: none;}
+.mainnav ul li:last-child{ padding-right: 0;}
+.mainnav ul li.active a { border: none; color: #eb841f; background-color: #fff; box-shadow:1px 3px 20px rgba(0,0,0,.05); border-radius:10px;  }
+
+.mainnav ul li.dropdown a{ padding-right: 15px;}
+.mainnav ul li.dropdown a .sub-menu--button{ margin-top: 5px;}
+
+
+.sub-menu {display:none; position:absolute; width:200px;background:#fff; z-index:99999; left: 0;top:50px;border: 1px solid #f3f3f3; border-radius:15px;box-shadow:1px 3px 20px rgba(0,0,0,.05); }
+.mobile_primary  ul li ul.sub-menu li { float:none; padding:0 0; margin:0;display: block; text-align: left; }
+.mobile_primary  ul li:hover .sub-menu { display:block}
+.mobile_primary  ul li.menu-item-has-children .sub-menu li a { background:none; font-size:12pt; padding:8px 15px; color:#1c1c1c;}
+.mobile_primary  ul li.menu-item-has-children .sub-menu li:last-child  { border:none}
+.mobile_primary ul li.menu-item-has-children a {background: transparent url("../images/drop.png") no-repeat scroll right 21px;}
+.mobile_primary ul li a:hover{color: #eb841f;}
+
+.mobile_primary  ul li.menu-item-has-children .sub-menu li a:hover, .mobile_primary  ul li.menu-item-has-children.active a {color:#eb841f;background: none;border-radius: 0;}
+
+
+
+.sub-menu:after { display: inline-block; content: ''; width: 0; height: 0; border-bottom:9px solid #fff; border-right: 9px solid transparent; border-left: 9px solid transparent; position: absolute; top: -8px; left: 41px;}
+
+
+.inner-header{top: 45px; padding-top: 15px; padding-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Home Banner section-------------------------*/
+
+.banner {position: relative;height: 100vh;overflow: hidden;}
+.banner img {width:auto;height:100vh;}
+
+/* .home-top-banner-wrap{ background-image: url(../images/banner-bg.jpg);background-size: cover; background-repeat: no-repeat;} */
+.home-top-banner-wrap {
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+}
+.home-top-banner-wrap .carousel-item{ min-height: 800px;}
+
+.home-top-banner-wrap .carousel-caption{ bottom: auto; top:0; left: 12%; right: 12%; padding: 0;}
+
+
+.home-top-banner-wrap .carousel-caption h3{ font-size: 25pt; font-weight: 300; text-transform: none; color: #fff;padding-top: 75px;}
+.home-top-banner-wrap .carousel-caption h2{font-size:45pt; font-weight: bold; text-transform: none; color: #f28d2b;line-height:normal;}
+.home-top-banner-wrap .carousel-caption p{font-size:13pt; font-weight: 400; text-transform: none; color: #fff;}
+.home-top-banner-wrap .carousel-caption .btn-type1{ margin-top: 20px;}
+
+.home-top-banner-wrap .rightImg img{max-width: 120%; vertical-align: top;}
+
+
+.home-top-banner-wrap .carousel-control-prev-icon,.home-top-banner-wrap .carousel-control-next-icon{ width: 40px; height: 40px; background:rgba(0,0,0,.4); position: relative; border-radius: 50%; margin-top: 50px;}
+.home-top-banner-wrap .carousel-control-prev-icon:before{ content: ""; display: block; position: absolute; background-image: url(../images/banner-left-arrow.png); width: 11px; height: 19px; z-index: 99; left:50%; top: 50%; margin:-9px 0 0 -7px;  }
+.home-top-banner-wrap .carousel-control-next-icon:before{ content: ""; display: block; position: absolute; background-image: url(../images/banner-right-arrow.png); width: 11px; height: 19px; z-index: 99; left:50%; top: 50%; margin:-9px 0 0 -5px;  }
+
+.banner-overlay {
+	background: rgba(166,206,44,0.3);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Home who we are section-------------------------*/
+
+.who-we-are-sec{ background-image: url(../images/who-we-are-sec-bg.png); background-position: left bottom; background-repeat: no-repeat; background-position: left bottom 80px;}
+
+.who-we-are-sec-left-box{ background: rgba(255,255,255,.8); padding: 40px; max-width: 95%; box-shadow: 5px 5px 30px rgba(0,0,0,.1);}
+.who-we-are-sec-left-box h3{ font-size: 30pt; color: #232323; font-weight: normal; margin-bottom: 30px;}
+.who-we-are-sec-left-box p{ margin-bottom: 30px;}
+.who-we-are-sec-left-box .btn-type1{ background-color: #db7a1b;}
+.who-we-are-sec-left-box .btn-type1:hover{ background-color: #e72e19; color: #fff;}
+
+
+
+.who-we-are-sec-right-slide-box{box-shadow: 5px 5px 30px rgba(0,0,0,.1); background-color: #fff; padding:50px 30px; margin-bottom: 25px;transition: All .8s;}
+.who-we-are-sec-right-slide-box .icon{width: 55px; height: 55px; background-repeat: no-repeat; margin: 0 auto 20px; background-size: contain;}
+.who-we-are-sec-right-slide-box p{text-align: center; font-size: 15pt; color: #676767; margin-bottom: 0;transition: All .8s;}
+
+
+.who-we-are-sec-right-slide-box.b1 .icon{ background-image: url(../images/who-we-are-sec-right-box-img1.png); transition: All 1s;}
+.who-we-are-sec-right-slide-box.b1:hover .icon{ background-image: url(../images/who-we-are-sec-right-box-img1-white.png); transition: All .8s;}
+.who-we-are-sec-right-slide-box.b2 .icon{ background-image: url(../images/who-we-are-sec-right-box-img2.png);transition: All 1s;}
+.who-we-are-sec-right-slide-box.b2:hover .icon{ background-image: url(../images/who-we-are-sec-right-box-img2-white.png); transition: All .8s;}
+.who-we-are-sec-right-slide-box.b3 .icon{ background-image: url(../images/who-we-are-sec-right-box-img3.png);transition: All 1s;}
+.who-we-are-sec-right-slide-box.b3:hover .icon,.who-we-are-sec-right-slide-box.gr-bg .icon{ background-image: url(../images/who-we-are-sec-right-box-img3-white.png); transition: All .8s;}
+
+
+
+.who-we-are-sec-right-slide-box:hover,.who-we-are-sec-right-slide-box.gr-bg{ background-color: #db7a1b; transition: All .6s;}
+.who-we-are-sec-right-slide-box:hover p,.who-we-are-sec-right-slide-box.gr-bg p{ color: #fff;transition: All .6s;}
+
+.who-we-are-sec-right-slide-box.gr-bg:hover{ background-color: #204c87;}
+
+
+
+
+
+
+/*---------------------Home Our products section-------------------------*/
+
+.our-products-sec{ background-color: #eeeeee;}
+
+.our-prod-row{ margin-bottom: 25px;}
+.our-prod-row a{ display: block; padding: 30px 0; }
+.our-prod-row a:hover{ background-color: #f6f6f4; transition: All .5s;    box-shadow: 5px 5px 40px rgba(0,0,0,.05);}
+
+.our-prod-row .our-prod-row-img{ height: 220px; object-fit: cover;}
+.our-prod-row .product-name{ color: #3d3d3d; font-size: 20pt; font-weight: 500;transition: All .8s; padding:10px 15px 0; }
+
+.our-prod-row a:hover .product-name{ color: #f28d2b; transition: All .5s;}
+
+.industries-we-serve-sec .tab-content h3{margin: 20px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Home Industries we serve section-------------------------*/
+
+.industries-we-serve-sec .tab-pane.row.active{ display: flex;}
+
+.industries-we-serve-sec .container1{ max-width: 1030px; margin: 0 auto;}
+
+.Portfolio {position: relative; transition-duration: 0.4s; animation: winanim 0.5s ; -webkit-backface-visibility:visible; backface-visibility:visible; margin-bottom: 30px;}
+.Portfolio:hover {}
+.Portfolio img { width: 100%; height: 250px; border-radius: 0px; object-fit: cover;}
+.industries-we-serve-sec .nav {padding: 0; margin: 0 auto 50px;}
+.industries-we-serve-sec .nav li a {margin: 0 2px; padding: 10px 30px; color: #1d1d1d; transition-duration: 0.4s; font-size: 15pt; font-weight: 600;border-radius: 30px; transition: All .5s;}
+.industries-we-serve-sec .nav a:hover {background:#e72e19; color: #fff; transition: All .5s;}
+.industries-we-serve-sec .nav .active {background-color:#f28d2b !important; color:#fff;}
+
+
+.Portfolio a{position: relative; display: block; }
+.Portfolio  .desc{ position: absolute; bottom: 0; left: 0; width: 100%; background: ;text-align: center; padding: 80% 15px 15%; transition: All .5s;
+background-image: linear-gradient(rgba(255,255,255,.05), rgba(255,255,255,1)); font-size: 20pt; font-weight: 600; color: #1f1f1f;}
+.Portfolio a:hover  .desc{padding: 30% 15px 15%; transition: All .5s; color: #000; font-weight: bold;}
+
+
+
+@keyframes winanim {
+    0%{opacity:0;transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Home Capabilities section-------------------------*/
+
+.capabilities-sec { position: relative;}
+.capabilities-sec .bag-img{ position: absolute; top: 0; left: 0; width: 100%; }
+.capabilities-sec-wrap{ margin-top: 70px;}
+
+
+.capabilities-sec-wrap .title  h2{ color: #fff; margin-bottom: 15px;}
+.capabilities-sec-wrap .title p{ color: #fff;}
+
+
+.capabilities-sec-wrap .btn-type1{ float: right; background-color: #aaba24;}
+.capabilities-sec-wrap .capabilities-sec-box a{ background-color: #fff; display: block; width: 100%; text-align: center; border-radius: 6px; padding: 30px; box-shadow: 3px 3px 20px rgba(0,0,0,.08);}
+.capabilities-sec-wrap .capabilities-sec-box a h4{ color: #333333; font-weight: 500; margin-top: 25px; transition: All .8s;}
+
+
+.capabilities-sec-wrap .capabilities-sec-box a:hover{box-shadow: 3px 3px 30px rgba(0,0,0,.5); }
+.capabilities-sec-wrap .capabilities-sec-box a:hover h4{ color: #f28d2b; transition: All .5s;}
+
+
+
+
+
+/*----------------------Flexible packeage section css-------------------------*/
+
+.flexi-package-sec{ padding-bottom: 0;}
+.flexi-package-sec  .title  p{ font-size: 20px; font-weight: 500; color: #1a1a1a;}
+
+
+.flexi-package-circle{ margin-bottom: 30px;min-height: 240px;}
+.flexi-package-circle a{ position: relative;display: block; background:#fff; box-shadow: 9px 0 27px rgba(0,0,0,.15); width: 220px; height: 220px; border-radius:50%; margin: 0 auto; padding-top: 55px; }
+.flexi-package-circle a .numb-circle{ width: 46px; height: 46px; color: #fff; font-size: 16pt; line-height: 200%; font-weight: 500; background-color: #264c84; display: block; border-radius: 50%; position: absolute; right: 10px; top: 10px; transition: All .5s; }
+
+
+.flexi-package-circle-img{ height: 50px; object-fit:contain;}
+.flexi-package-circle a .flexi-package-circle-txt{ font-weight: 600; font-size: 14pt; color: #1f1f1f; margin-top: 15px;transition: All .5s;}
+
+
+
+.flexi-package-circle a:hover{ width: 240px; height: 240px; transition: All .4s; box-shadow: 9px 0 40px rgba(0,0,0,.3);}
+.flexi-package-circle a:hover .flexi-package-circle-txt{ color:#f1930c; transition: All .3s; }
+.flexi-package-circle a:hover .numb-circle{ background-color: #f1930c;transition: All .5s; }
+
+
+
+
+
+
+
+
+
+
+.flexi-package-left-col{ margin-top: 40px;}
+.flexi-package-left-col h4{ font-weight: bold; color: #393939; font-size: 30pt; margin-bottom: 30px;}
+.flexi-package-left-col .btn-type1{ background-color: #f28d2b;}
+.flexi-package-left-col .btn-type1:hover{ background-color: #e72e19; color: #fff;}
+
+
+
+
+.flexi-package-right-col{ margin-top: 40px;}
+.flexi-package-right-col .green-box{ background-color: #031b49; padding: 45px 35px;}
+.flexi-package-right-col .green-box h3{font-family: 'Montserrat', sans-serif; color: #ffffff; font-size: 35pt; font-weight: bold; margin-bottom: 10px;}
+.flexi-package-right-col .green-box h6{font-family: 'Montserrat', sans-serif; color: #ffffff; font-size: 14pt; font-weight: 500; margin-bottom:50px;}
+.flexi-package-right-col .green-box h5{font-family: 'Montserrat', sans-serif; color: #ffffff; font-size: 20pt; font-weight: 500; margin-bottom: 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- footer -----------------------------*/
+
+
+footer.footer{ background:#141414;  background-position: 10% center;  background-size: contain; background-repeat: no-repeat; position: relative; z-index: 2; }
+.footer-up{ padding: 50px 0 70px;  background-repeat: no-repeat; background-position: 5% center;}
+.footer-up p a{color: #ffffff; font-size: 14pt;}
+.footer-up p a img{ margin-right: 5px; height:auto; max-width: 17px; }
+
+.footer-up h5{ color: #ffffff; margin-top: 0px; font-weight: 600; font-size: 18pt; margin-bottom: 20px; }
+.list-link-box p{ margin-bottom: 10px; }
+.list-link li{ display: inline-block; width: 100%; list-style: none; padding: 4px 0px;}
+.list-link2.list-link li a{color: #ffffff;}
+.list-link li a{transition:all 0.8s ease; font-size: 14pt; color: #ffffff; line-height: 22px; font-weight: normal;}
+.footer-up .social-link{ display: inline-block;    margin-bottom: 8px;}
+.footer-up .social-link li{ list-style: none; float: left; position: relative; margin: 0px 9px;}
+.footer-up .social-link li:first-child{ margin-left: 0;}
+.footer-up .social-link li a{ text-align: center; transition:all 0.8s ease;line-height:34px; color: #ffffff;  border-radius: 4px; padding: 0px; display: inline-block;}
+.footer-up .social-link li a:hover{ transition:all 0.8s ease; color: #a6ce2c;}
+.footer-up .social-link li a i{ font-size: 18pt; }
+.logo-footer{ display: inline-block; margin:20px 0; }
+.footer-btm{ background:#1d568a;padding: 20px 0; border-top:1px solid rgba(255,255,255,0.1);}
+.footer-btm p{ color: #fff; font-size: 15pt; margin-bottom: 0px; line-height:40px;}
+.list-link li a:hover{color: #f1930c;}
+.to-top{ display: none !important;background: #f75c32; width: 50px; cursor: pointer; position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; align-items: center; justify-content: center; bottom: 70px; z-index: 55; right: 4%; border-radius: 50%; height: 50px;  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.47);  }
+
+
+.footer-logo{margin-bottom: 30px; display: block;}
+
+.newsletter hr{ margin-top: 30px;}
+
+
+
+.list-link-box .copyright{ font-size: 15pt; color: #303030; font-weight: normal;}
+
+
+
+
+
+
+.copyright{ background-color: #000; text-align: center; padding: 15px;}
+.copyright p{ margin-bottom: 0; color: #ffffff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Film page -----------------------------*/
+
+.film-top-sec .product-details-top-sec-inner{ background-size: contain;}
+
+
+.film-top-sec .product-details-top-sec-box-inner{padding: 15px; box-shadow: none;}
+.film-top-sec .product-details-top-sec-box h2:before{ display: none;}
+.film-top-sec .product-details-top-sec-box:after{ display: none;}
+
+
+.film-accordion-sec{ padding-top: 0; padding-bottom: 0;}
+.film-accordion-sec .accordion{
+    background-color: #f5f5f5; padding: 35px;}
+
+
+
+
+
+
+/*----------------------- markets page -----------------------------*/
+
+.markets-tabs-sec{ padding-bottom: 0;}
+
+
+
+
+
+
+/*----------------------- Graphics page -----------------------------*/
+.graphics-top-circle-sec{ padding-bottom: 70px;}
+.graphics-top-circle-sec .title.innerHeading{margin-bottom:70px;}
+.graphics-top-circle-sec .title.innerHeading h2{ font-size: 42pt;  text-align: center; margin-bottom: 25px;}
+.graphics-top-circle-sec .title.innerHeading p{ font-size: 14pt; font-weight: normal; color: #676767;}
+
+
+
+.graphics-sec2,.graphics-sec3,.graphics-sec4,.graphics-sec5{ padding-top: 0; padding-bottom: 0; background-size: cover; background-repeat: no-repeat; background-position: top center;}
+.graphics-sec-text-box{ padding: 10%;}
+.graphics-sec-text-box h3{ color: #fff; font-size: 42pt; margin-bottom: 30px; font-weight: bold;}
+.graphics-sec-text-box p{ color: #fff; font-size: 14pt;  font-weight: normal;}
+
+
+.graphics-sec2 .graphics-sec-text-box{ background-color: rgba(99,147,37,.7);}
+.graphics-sec3 .graphics-sec-text-box{ background-color: rgba(00,00,00,.7);}
+.graphics-sec4 .graphics-sec-text-box{ background-color: rgba(123,68,12,.7);}
+.graphics-sec5 .graphics-sec-text-box{ background-color: rgba(30,105,133,.7);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Printing Page css---------------------------*/
+
+.graphics-top-circle-sec .title p{ font-size: 16pt !important;}
+.graphics-top-circle-sec h3{font-size: 30pt; text-align: left; font-weight: bold;margin-bottom: 25px; color: #2f2f2f;}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Innovation Page css---------------------------*/
+
+.innovation-sec2{ background-repeat: no-repeat; background-position: right top; background-size: contain; max-width: 1920px; margin: 0 auto;}
+
+.innovation-sec-text-box h3{font-size:40pt;margin-bottom: 30px; font-weight: bold;}
+.innovation-sec-text-box p{}
+
+.innovation-sec3{background-repeat: no-repeat; background-position: left top; background-size: contain; max-width: 1920px; margin: 0 auto;}
+
+
+
+
+.innovation-pg-bottom-sec { padding-bottom: 0;}
+.innovation-pg-bottom-sec .title h2{ text-align: center !important;font-size: 42pt; text-align: center; margin-bottom: 15px; text-transform: uppercase;}
+.innovation-pg-bottom-sec .title{ margin-bottom: 40px !important;}
+
+
+
+.innovation-pg-bottom-sec-box{ background-color: #ededed; margin-bottom: 30px;}
+.innovation-pg-bottom-sec-img img{ width: 100%;}
+.innovation-pg-bottom-sec-txt{ padding: 25px; min-height: 160px;}
+.innovation-pg-bottom-sec-txt h4{ font-size: 18pt; font-weight: bold; color: #2b2b2b; margin-bottom: 15px;}
+.innovation-pg-bottom-sec-txt p{}
+
+
+
+
+
+
+
+
+
+/*----------------------------Quality assurance Page css---------------------------*/
+
+.quality-assurance-top-sec img{ width: 100%;}
+
+.quality-assurance-bottom-sec{ padding-top: 0; padding-bottom: 0;}
+.quality-assurance-bottom-sec .innerHeading{ margin-bottom: 40px !important;}
+.quality-assurance-bottom-sec .innerHeading  h3{ margin-bottom: 30px; font-weight: bold;}
+.quality-assurance-bottom-sec .innerHeading  p{ font-size: 15pt;}
+.quality-assurance-bottom-sec .innovation-pg-bottom-sec-txt{ min-height: 225px;}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Breathable package Page css---------------------------*/
+
+.breathable-pachaging-top-sec .innerHeading  h2{ text-align: center !important;}
+
+
+.breathable-pachaging-bottom-sec{ background-color: #ededed;}
+.breathable-pachaging-bottom-sec .innerHeading  h2{ text-align: center !important;}
+
+
+.breathable-pachaging-bottom-sec-text-box h3{ 
+    font-size: 20pt;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #2f2f2f;}
+.breathable-pachaging-bottom-sec-text-box ul li{    color: #6b6b6b;
+    margin-bottom: 20px;
+    font-size: 13pt;
+    background: url(../images/listUl-arrow.png) no-repeat top 5px left;
+    padding-left: 25px;}
+
+
+
+
+
+
+
+
+
+/*----------------------------Converting and fishing sec2 Page css---------------------------*/
+
+.converting-fishing-sec2 .product-details-top-sec-inner{ background-image: url(../images/converting-and-fishing-img1.jpg);}
+.converting-fishing-inner{ padding-top: 50px; padding-bottom: 50px; }
+.converting-fishing-inner .product-details-top-sec-box-inner{border-radius: 5px;}
+
+.converting-fishing-inner .product-details-top-sec-box:after{ display: none;}
+
+.converting-fishing-inner ul li{    margin-bottom: 10px;
+    background-image: url(../images/bullet-style1.png);
+    background-position: left 8px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 14pt;
+    color: #676767;}
+
+
+
+
+
+.converting-fishing-sec3 {background-color: #f3f3f3;}
+.converting-fishing-sec3 .product-details-top-sec-inner{ background-image: url(../images/converting-and-fishing-img2.jpg); background-position: center right; }
+
+
+
+
+.converting-fishing-sec4{ padding-bottom: 0;}
+.converting-fishing-sec4 .product-details-top-sec-inner{ background-image: url(../images/converting-and-fishing-img3.jpg);  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Sustainable Page css---------------------------*/
+
+.sustainable-sec2 .graphics-sec-text-box,.sustainable-sec3 .graphics-sec-text-box,.sustainable-sec4 .graphics-sec-text-box{ padding-top: 50px; padding-bottom: 50px; background-color: transparent;}
+
+.sustainable-sec2{ background-color: #ea8539;}
+.sustainable-sec3{background-color: #2c2c2c;}
+.sustainable-sec4{background-color: #a5c447;}
+
+.sustainable-sec-text-img{ padding: 0;}
+
+.sustainable-banner .inner-banner-txt{ top:29%;}
+.sustainable-banner h4{font-size: 40pt; font-weight: 600; color: #ffffff; display: block; padding: 10px; margin-left: 7%;}
+
+
+
+
+
+
+/*----------------------------WIrehouse Page css---------------------------*/
+
+.wirehouse-sec2{ padding-bottom: 0;}
+.wirehouse-sec2 .title h4{ font-size: 26pt; font-weight: bold; color: #292929;}
+.wirehouse-sec2 .title h5{ font-size: 16pt; font-weight: 400; color: #292929; margin: 15px; margin-bottom: 50px;}
+
+.wirehouse-sec2-box{ margin-bottom: 20px; padding: 15px;}
+
+.wirehouse-sec2-box-text{ background: rgba(255,255,255,.9); padding: 40px 20px 15px; }
+.wirehouse-sec2-box-text h4{ font-size: 15pt; font-weight: bold; color: #232323; margin-bottom: 15px;}
+.wirehouse-sec2-box-text h5{font-size: 14pt; font-weight: normal; color: #232323; margin-bottom: 15px;}
+.wirehouse-sec2-box-text .btn-type1{ text-transform: uppercase; padding: 8px 15px; background-color: #a3c430; margin-bottom: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Contact Us Page css---------------------------*/
+
+
+.floated-info{ background-color: #f5f5f5;}
+.floated-info-box a{ display: block; border-left:1px solid #c0c0c0; }
+.floated-info-box:first-child a{ border-left:none; }
+.floated-info .flt-info-icon{height: 40px; display: flex; justify-content: center; align-items: center; margin-bottom: 20px;}
+.floated-info p{ font-size: 30pt; color: #000; margin-bottom: 0;transition: All .5s;}
+
+.floated-info-box a:hover p{ color:#d78821; transition: All .5s; }
+
+
+
+
+
+
+.contact-form {width: 100%;}
+.contact-form .title h2{color: #fff;}
+.form-part {background: url(../images/contact-request-a-quote-bg.jpg);background-repeat: no-repeat;background-position: right;background-size: cover;background-attachment: fixed;}
+
+.contact-form form  label{ color: #fff;}
+.contact-form form input[type="text"], .contact-form form input[type="email"] {
+    background: #fff;
+    padding: 15px 25px;
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #000;
+    box-shadow: none !important;
+}
+.contact-form form textarea {
+    background: #fff;
+    border-radius:5px;
+    min-height: 100px;
+    box-shadow: none !important;
+    outline: none !important;
+    resize: none;
+}
+.contact-form form p {margin: 20px 0;}
+
+.contact-form form input[type="submit"], .contact-form form input[type="button"] {background: #db7a1b; border:none;padding: 18px 25px; width:100%; margin-right: 15px; margin-bottom: 15px;border-radius: 4px; color: #fff;font-size: 18px;text-transform: uppercase; margin-top: 40px; max-width: 250px; border-radius: 6px; transition: All .5s; cursor: pointer;}
+.contact-form form input[type="submit"]:hover{ background-color: #e72e19; transition: All .5s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Product details pouches page -----------------------------*/
+
+
+
+/*top section*/
+.product-details-top-sec-inner{ background-image: url(../images/product-details-pouches-top-img.png); background-repeat: no-repeat; background-size: contain; background-position: 5% center;}
+.product-details-top-sec-box-inner{-webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.09); -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.09); box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.09); padding:70px 50px; background-color: #fff; position: relative; z-index: 999;}
+
+.product-details-top-sec-box{ position: relative; }
+.product-details-top-sec-box:after{ content: ""; display: block; position: absolute; top: -30px; right: -70px; width: 140px; height: 140px; background-image: url(../images/product-details-top-box-dot-bg.png); background-repeat: no-repeat; z-index: 9; }
+
+
+.product-details-top-sec-box h2{ position: relative;}
+.product-details-top-sec-box h2:before{content: ""; display: block; border-left: 5px solid #96c524; height: 50px; position: absolute; left: -50px; top: 3px;}
+
+
+
+/*We offer section*/
+.product-details-pouches-we-offer{ background-color: #f6f6f6;}
+.product-details-pouches-we-offer .our-prod-row a{ background-color: #fff; box-shadow: 5px 5px 40px rgba(0,0,0,.05);}
+.product-details-pouches-we-offer .our-prod-row .our-prod-row-img{ height: 208px;}
+.product-details-pouches-we-offer .our-prod-row a img{height: 208px; object-fit: contain; max-width: 100%;}
+.product-details-pouches-we-offer .our-prod-row a h4{ color: #5e5e5e; font-size: 14pt; font-weight: bold; margin-top: 15px;}
+
+
+.product-details-pouches-we-offer .our-prod-row a:hover{box-shadow: 5px 5px 40px rgba(0,0,0,.2);}
+
+
+
+
+/*We make section*/
+.product-details-pouches-we-make{ background-image: url(../images/pouches-we-make-sec-bg.jpg); background-repeat: no-repeat; background-size: cover; }
+.product-details-pouches-we-make-inner{ background-color: #fff; border-radius: 10px; padding: 45px;}
+
+
+.product-details-pouches-we-make-col{ padding:40px 10px; }
+.product-details-pouches-we-make-col ul{ }
+.product-details-pouches-we-make-col ul li{ margin-bottom: 20px; background-image: url(../images/bullet-style1.png); background-position: left 8px; background-repeat: no-repeat; padding-left: 30px; font-size: 14pt; color: #676767; }
+
+
+
+.product-details-pouches-we-make-col.active{ padding: 40px 10px 40px 40px; background-color: #f3f3f3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Product details Meat and cheese page -----------------------------*/
+
+/*meat and cheese top sec*/
+.meat-and-cheese-top-sec .product-details-top-sec-inner{ padding-top: 50px;background-position: 0% center;}
+.meat-and-cheese-top-sec .product-details-top-sec-box:after{ display: none;}
+.meat-and-cheese-top-sec .product-details-top-sec-box h2:before{ display: none;}
+
+
+
+
+
+/*Product details shrink bags sec*/
+
+.product-details-shrink-bags .title.innerHeading h2{ color: #fff;}
+.product-details-shrink-bags .title.innerHeading p{ text-align: left; color: #fff; margin-top: 25px; margin-bottom: 40px;  font-size: 14pt; font-weight: 300;}
+
+
+.product-details-shrink-bags-col{ position: relative;transition: All .5s;}
+.product-details-shrink-bags-col img{ width: 100%; height:350px; object-fit: cover;}
+
+
+.hovr-text{ background: rgba(33,76,135,.9); position: absolute; top: 0; bottom: 0; height: 100%; display: flex; align-items: center; flex-wrap: wrap; padding: 40px; opacity: 0;transition: All .5s;width: 100%;}
+.hovr-text h5{ color: #fff; font-size: 25pt; font-weight: 500;}
+.hovr-text p{ color: #fff; font-size: 15pt; font-weight: 300;}
+
+
+.product-details-shrink-bags-col:hover .hovr-text,.hovr-text:hover{ opacity: 1; transition: All .5s;}
+
+
+
+
+
+/*Product details shrink film sec*/
+.shrink-film-sec .title.innerHeading h2{ color: #2b2b2b;}
+.shrink-film-sec .title.innerHeading p{ text-align: left; color: #2b2b2b; margin-top: 25px; margin-bottom: 40px;  font-size: 14pt; font-weight: 300;}
+
+
+
+.shrink-film-sec-col img{ width: 100%; height: 350px; object-fit: cover;}
+
+
+
+
+/*Product cook chill film sec*/
+
+.cook-chill-sec .title.innerHeading h2{ color: #2b2b2b;}
+.cook-chill-sec .title.innerHeading p{ text-align: left; color: #2b2b2b; margin-top: 25px; margin-bottom: 40px;  font-size: 14pt; font-weight: 300;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Product details Bopp Poly woven page -----------------------------*/
+
+.bopp-poly-top-sec h5 { margin-top: 30px; margin-bottom: 15px; font-weight: bold;}
+
+.bopp-poly-mid-sec{    background-color: #f3f3f3;}
+.bopp-poly-mid-sec .innerHeading{ margin-bottom: 35px;}
+.bopp-poly-mid-sec .innerHeading h2{ text-align: center !important; color: #fff;}
+
+.bopp-poly-mid-sec .listUl li{ color: #fff;}
+
+
+.bopp-poly-mid-sec3 h4{margin-top: 30px; margin-bottom: 0px; font-weight: 500;}
+
+
+.bopp-poly-mid-sec4{background-color: #eeeeee;}
+.bopp-poly-mid-sec4 h4{margin-top: 30px; margin-bottom: 15px; font-weight: 500;}
+.bopp-poly-mid-sec-gr-box{ margin-top: 35px; background-color: #99bc2c; color: #fff; border-radius: 15px; padding: 35px 15px; min-height: 210px; transition: All .5s;}
+.bopp-poly-mid-sec-gr-box h3{ color: #fff; margin-bottom: 20px;}
+.bopp-poly-mid-sec-gr-box p{ color: #fff; margin-bottom: 10px;}
+
+
+.bopp-poly-mid-sec-gr-box:hover{    box-shadow: 5px 5px 20px rgba(0,0,0,.2); background: rgba(0,0,0,.6); transition: All .5s;}
+
+
+
+.inner-banner-img{ position: relative;}
+.inner-banner-txt{ position: absolute; top:35%; width: 100%; text-align:left;}
+.inner-banner-txt h2 {
+    font-size: 40pt;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #f8910c;
+    display: inline-block;
+    padding: 10px;
+    margin-left:14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Product details Retail Bags page -----------------------------*/
+
+.retail-pg-sec3 .title h2{ text-align: center !important;}
+.retail-pg-sec3 .title  p{ text-align: center !important;}
+
+
+.retail-bag-pg-sec2  .breathable-pachaging-bottom-sec-text-box{ margin-top: 25px;}
+.retail-bag-pg-sec2  .breathable-pachaging-bottom-sec-text-box h5{ margin-bottom: 15px;}
+
+.retail-pg-sec3-col{ margin-bottom: 30px;}
+.retail-pg-sec3-col-inner{ text-align: center; background-color: #f2f2f2; min-height: 300px; display: flex; align-items: center; justify-content: center; position: relative;}
+.retail-pg-sec3-col img{ width: auto; height: auto; text-align: center;}
+
+
+.retail-pg-sec3-col-inner .hovr-text{ width: 100%; padding: 15px; text-align: center; justify-content: center;}
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Product details Food trays page -----------------------------*/
+
+
+.food-trays-pg-sec3 .title h2{ text-align: center !important;}
+.food-trays-pg-sec3 .title p{ margin-top: 25px; margin-bottom: 40px;}
+
+
+
+.food-trays-pg-sec3  .item figure figcaption{ display: flex;}
+.food-trays-pg-sec3  .item figure figcaption p{ height: auto !important;    align-items: center; display: flex; text-align: center; justify-content: center; width: 100%;}
+
+
+
+
+
+
+/*about page top sec*/
+.about-us-pg-about-sec .row{ align-items:flex-start;}
+
+.about-us-pg-about-sec .about-txt{ padding-right: 10%; }
+.about-us-pg-about-sec .title2{ display: flex; margin-bottom: 30px;}
+.about-us-pg-about-sec .title2 h2{ font-size: 30pt; color: #1e1e1e; margin-bottom: 0;}
+
+.about-us-pg-about-sec p{ margin-bottom: 15pt;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------- Responsive Css starts here -----------------------------*/
+
+
+
+
+
+
+
+
+
+@media (min-width:1700px) {
+    
+    .home-top-banner-wrap{ height: 680px;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1600px) {
+    
+    
+/*--------------Common css--------*/
+
+.title {margin:0 0 50px;}
+.title h2{ color: #1f1f1f; font-weight: bold; font-size: 45pt;}
+.title p{ font-size: 13pt; color: #676767; font-weight: normal; margin-top: 15px;}
+
+
+.btn-type1{ font-size: 13pt;  }
+
+
+    
+    /*Menu css*/
+    .mainnav ul li a{ font-size:12pt; }
+
+    .home-top-banner-wrap .carousel-item {min-height:600px;}
+ 
+    
+
+    .carousel-control-next, .carousel-control-prev{ width: 8%;}
+    
+    
+    /*Who we are section css*/
+    .who-we-are-sec-left-box h3{ font-size: 26pt;}
+    .who-we-are-sec-right-slide-box p{ font-size: 13pt;}
+    
+    
+    /*Our products section css*/
+    .our-prod-row .product-name{ font-size: 15pt;}
+    
+    
+    /*Industries we serve section css*/
+    .industries-we-serve-sec .nav li a{ font-size: 14pt;}
+    .Portfolio .desc{ font-size: 15pt;}
+  
+    
+    /*Capabilities section css*/
+    .capabilities-sec-wrap {margin-top: 30px;}
+    .capabilities-sec-box img{ height: 150px; object-fit: contain;}
+    .capabilities-sec-wrap .capabilities-sec-box a h4{ font-size: 15pt;}
+    
+    
+    
+    /*Flexible packaging section css*/
+    
+    
+    .flexi-package-left-col h4{ font-size: 26pt;}
+    .flexi-package-right-col .green-box h3{ font-size: 30pt;}
+    .flexi-package-right-col .green-box h6{ font-size: 13pt;}
+    .flexi-package-right-col .green-box h5{ font-size: 17pt; margin-bottom: 20px;}
+    
+    
+   
+    
+    
+    /*----------Footer css--------------*/
+    .footer-up h5{ font-size: 16pt;}
+    .list-link li a{ font-size: 12pt;}
+    
+    
+    .copyright p{ font-size: 12pt;}
+    
+    
+    
+    
+    /*----------Sustainable css--------------*/
+    .sustainable-sec2 .graphics-sec-text-box, .sustainable-sec3 .graphics-sec-text-box, .sustainable-sec4 .graphics-sec-text-box{ padding: 50px 5%;}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+    .home-top-banner-wrap .carousel-item { min-height: 500px;}
+    .home-top-banner-wrap .carousel-caption h2 {font-size: 34pt;}
+
+    /*Flexible packaging section css*/
+    .flexi-package-circle a{ width: 190px; height: 190px; padding-top: 42px;}
+    .flexi-package-circle a .flexi-package-circle-txt{ font-size: 14pt; margin-top: 10px;}
+    .flexi-package-circle a .numb-circle {width: 40px; height: 40px; font-size: 14pt;}
+    
+    .flexi-package-circle a:hover{ width: 210px; height: 210px;}
+
+    
+    
+    /*----------------------- Graphics page -----------------------------*/
+
+.graphics-sec-text-box{ padding: 6%;}
+    
+    
+    
+    /*----------------------------Innovation Page css---------------------------*/
+    .innovation-sec2{ background-size: 600px;}
+    .innovation-sec3{ background-size: 600px;}
+
+    
+    
+    
+    
+    
+     /*----------------------------Converting and fishing Page css---------------------------*/
+ 
+
+    
+    .converting-fishing-inner .product-details-top-sec-box-inner{ padding: 50px 30px;}
+    
+    .converting-fishing-inner .product-details-top-sec-box h2:before{    left: -30px;}
+    
+    
+    
+    
+    
+     /*----------Sustainable css--------------*/
+    .sustainable-sec2 .graphics-sec-text-box, .sustainable-sec3 .graphics-sec-text-box, .sustainable-sec4 .graphics-sec-text-box {
+    padding: 28px 5%;}
+    .graphics-sec-text-box h3{font-size: 38pt;    margin-bottom: 11px;}
+    .graphics-sec-text-box p{ font-size: 13pt;}
+    
+}
+
+
+
+
+@media (max-width:1366px) {
+    .productList .item .con p {font-size: 12pt;}
+        .home-top-banner-wrap .carousel-caption h3{ font-size: 15pt; padding-top: 30px;}
+    
+}
+
+
+
+
+
+
+@media (max-width:1240px) {
+   .home-top-banner-wrap .carousel-item { min-height: 450px;}
+    
+/*Commpn css*/
+.container{ max-width: 960px}
+.container-custom1{max-width: 100%;padding-left: 15px; padding-right: 15px;}
+    
+    
+.title h2{ font-size: 50px;}    
+.title h3{ font-size: 22px;}   
+.title h4{ font-size: 20px;}  
+    
+.title2 h2{ font-size: 50px; margin-bottom: 10px;}
+.title2 h6{ font-size: 17px;}
+    
+    
+/*topbar css*/
+.top-bar{ padding-top: 2px; padding-bottom: 2px;}
+    
+/*Menu css*/   
+
+    .mainnav ul li a{ font-size: 13pt; padding: 6px 8px;}
+    
+
+    
+.home-top-banner-wrap .carousel-caption:before {border: 4px solid #a6ce2c; border-bottom: none; min-height: 50px; width:350px;}    
+.home-top-banner-wrap .carousel-caption:after {border: 4px solid #a6ce2c; border-top: none; min-height: 50px; width:350px; margin-top: -30px;} 
+  
+    
+    
+    
+/*Who we are css*/   
+.who-we-are-sec-left-box{ max-width: 100%; background: rgba(255,255,255,.9);}
+.who-we-are-sec-right-slide-box{padding: 40px 20px;}
+
+    
+    
+/*Capabilities css*/ 
+.capabilities-sec .bag-img  img{height: 431px; object-fit: cover;} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*--------------------- Inner Page Banner css-----------------*/    
+.inner-banner-img{ position: relative;}
+.inner-banner-img img{ min-height: 300px; object-fit: cover;}
+.inner-banner-txt{ position: absolute; top:35%; width: 100%; text-align:left;}
+.inner-banner-txt h2{ font-size:40pt; font-weight: 600; color: #ffffff; background-color: #f8910c; display: inline-block; padding: 10px; margin-left:12%;}
+.inner-banner-txt h3{ font-size:20pt; font-weight: 600;   display: block; padding: 0px; margin-left:7%; margin-bottom: 15px;}
+.inner-banner-txt p{ font-size:14pt; font-weight: normal;   display: block; padding: 0px; margin-left:7%; margin-top: 15px;}
+
+
+
+    
+/*----------------------- Product details pouches page -----------------------------*/
+    
+    .product-details-top-sec-inner{ background-size: 346px;}
+    .product-details-pouches-we-offer .our-prod-row a{ padding: 15px;}
+    .product-details-pouches-we-offer .our-prod-row a h4{ min-height: 54px;}
+    
+    
+    
+    
+     
+    /*----------------------------Innovation Page css---------------------------*/
+    .innovation-sec2{ background-size: 450px; background-position: center right;}
+    .innovation-sec3{ background-size: 450px;  background-position: center left; padding-top: 0; padding-bottom: 0;}
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:1199px) {
+    
+    .extrusionNav li a{font-size: 11pt;padding: 20px 20px; margin-bottom: 10px;}
+    
+}
+
+
+
+
+
+
+@media (max-width:991px) {
+    
+  
+    /*Common css*/
+    .container-custom,.container-custom1{ padding: 0 15px;}
+    
+    
+    .btn-type1{ padding: 10px 30px;}    
+   
+   
+ 
+	/*menu css*/
+    .logo {margin: 5px 0;max-width:250px;}
+    
+    
+	.menu-button{outline: none !important; background:url(../images/mb_menu.png) no-repeat; height:20px; width:26px; display:block; border:none; cursor:pointer; margin:0; float:right;border-radius: 2px;position: absolute;right: 0px; z-index:999;top:14px;}
+	.menu-button.open{background:url(../images/mb_menu.png) no-repeat}
+    
+    
+    .header_right {position: relative;float: none;}  
+    .right_header {padding: 20px 0px 0px;}
+    
+	.mobile_primary{display:none;background:#031b49;position:absolute;right:0;width:100%;top:70px;z-index:999999;}
+	.mobile_primary ul{list-style:none;margin:0;padding:0}
+	.mobile_primary li{ /*border-bottom:1px solid #fff;*/display:block;position:relative;padding:0;background:none; float:none;}
+	.mobile_primary li:first-child{border-top:none}
+	.mobile_primary .sub-menu{display:none}
+    .mainnav ul li.active a{ background-color: transparent;}
+	
+	.mobile_primary .sub-menu li:first-child{border-top:1px solid #fff}
+	.mobile_primary li ul.sub-menu li a{padding:10px 20px; line-height:30px; color: #fff !important;}
+	.mobile_primary .sub-menu .sub-menu a{padding:15px 0 15px 50px}
+	.mobile_primary .sub-menu--button{background:#052155 url(../images/submenu.png) no-repeat center;cursor:pointer;display:inline-block;height:46px;position:absolute;right:0;top:0;width:46px;z-index:9999999999999;}
+	.mobile_primary .sub-menu--button.open{background:#1b3d70 url(../images/submenu.png) no-repeat center;}
+	.mobile_primary .sub-menu li { display:block}
+	.mobile_primary li:hover>.sub-menu { top:0}
+	.page-header__primary{display:none}
+	.mobile_primary li:hover .sub-menu {display:none; position:relative}
+	.mobile_primary .sub-menu { position:relative; top:0; width:auto;    padding: 0 30px; border-color: transparent; background-color: #052155; border-radius:0;  }
+	.mobile_primary li.dropdown a:after { background:none; }
+	.mobile_primary  ul li:hover .sub-menu { display:none}
+	.mobile_primary ul li ul.sub-menu li {padding: 5px 0;}
+	.mobile_primary ul li ul.sub-menu li {padding: 0; border-color: #555555;}
+    
+    .mainnav ul li {padding: 0px 0px 0px 0;float: none;display: block;    text-align: left;}    
+    .mainnav ul li a{ padding: 10px; color: #fff; border-bottom: 1px solid #052155 !important; font-size: 13pt;}
+	.mainnav ul li a:hover, .mainnav ul li.active a {border-radius: 0;  color: #f8910c; box-shadow: none;}
+	.sub-menu::before { display: none !important;}
+    .sub-menu::after {display: none;}
+	.sub-menu {background: #231f20;}
+	.mobile_primary .sub-menu li:first-child {border-top: none;}
+    
+    
+    .mobile_primary ul li.menu-item-has-children:hover a {color:#fff;background: #1b3d70;}
+    .mobile_primary  ul li.menu-item-has-children .sub-menu li a:hover, .mobile_primary  ul li.menu-item-has-children.active a {color:#fff;}
+
+
+    
+    
+    
+    /*---------home banner css---------*/
+    .home-top-banner-wrap .carousel-item{ min-height: 400px;}
+    .home-top-banner-wrap .carousel-item img{min-height: 200px; object-fit: contain;}
+    
+    .home-top-banner-wrap .carousel-caption{width: 100%; left: 0; padding: 0 70px;}
+    .home-top-banner-wrap .carousel-caption h2{ font-size: 30pt; line-height: normal;}
+    .home-top-banner-wrap .carousel-caption p { display: none;}
+    
+    .home-top-banner-wrap .carousel-control-next{ width: 50px;}
+    .home-top-banner-wrap .carousel-control-prev{ width: 50px;}
+    
+    
+    
+    
+    /*who we are section css*/
+    .who-we-are-sec-right-slide-box {padding: 30px 10px;}
+    
+    
+    /*Our products section css*/
+    .our-prod-row .our-prod-row-img{ height: auto;}
+    .our-prod-row .our-prod-row-img img{ height: 180px; object-fit: contain;}
+    
+    
+     /*Industries we serve sec section css*/
+    .industries-we-serve-sec .nav li a{ padding: 10px 25px;}
+    
+    
+    /*Capabilities sec section css*/
+    .capabilities-sec-wrap .capabilities-sec-box a{ padding: 15px;}
+    .capabilities-sec-box img {height: 110px;}
+    
+    
+    
+    
+    /*----------------------- Product details Meat and cheese page -----------------------------*/
+    
+    
+    .product-details-shrink-bags-col{ padding: 0;}
+    .shrink-film-sec-col{ padding: 0 !important;}
+    .cook-chill-sec-col{ padding: 0 !important;}
+    
+    
+    
+    /*----------------------------Contact Us Page css---------------------------*/
+
+    .floated-info p {font-size: 18pt;}
+    .floated-info .flt-info-icon { margin-bottom: 10px;}
+    
+    
+    
+     /*----------------------------Innovation Page css---------------------------*/
+    .innovation-sec2{ background-size: 350px;}
+    .innovation-sec3{ background-size: 350px;}
+    
+    
+    
+     /*----------------------------Coverting and fishing Page css---------------------------*/
+     .converting-fishing-inner{ background-size: cover;}
+    
+    
+    
+     /*----------------------------WIrehouse Page css---------------------------*/
+    .wirehouse-sec2-box-text{ padding: 15px;}
+    .wirehouse-sec2-box-text .btn-type1{ margin-bottom: 0;}
+    
+    
+    
+    
+    .productList .item figure img { height: 230px;}
+    
+    
+    .boxSec .bannerTxt{position: static; width: auto;}
+    
+    
+    
+    
+    .home-top-banner-wrap .rightImg img {max-width: 150%;}
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .inner-banner-txt h2 {font-size: 25pt;}
+    .inner-banner-img img { min-height: 230px;}
+    /*common css*/
+    .title{ margin-bottom: 40px;}
+    .title h2 {font-size: 42px;}
+    .title h3 {font-size: 20px;}
+    .title2 h2 {font-size: 42px;}
+    
+    section{ padding-top: 50px; padding-bottom: 50px;}
+    
+
+    /*top bar*/
+    .top-bar{ padding: 5px 5px 8px;}
+    .top-bar ul{ text-align: center; margin-top: 0; }
+    .top-bar-r{justify-content: center; margin-top: 3px;}
+    .top-bar-r ul{ margin-left: 15px;}
+    .top-bar-r ul li a { font-size: 15px;}
+    
+    
+    /*Header*/
+    .header{ top: 86px;}
+    .inner-header {top: 86px !important; padding-top: 0 !important; padding-bottom: 0  !important;}
+    
+    
+    /*footer css*/
+    .footer-up{ padding-bottom: 25px;}
+    .footer .list-link-box{ text-align: center; margin-bottom: 35px;}
+    
+    
+    
+    
+    
+    /*Home Banner bar*/
+    .home-top-banner-wrap .carousel-item { min-height: 450px;}
+    .home-top-banner-wrap .col-md-5.col-sm-12.col-xs-12{ order: 2; margin-top: 20px;}
+    .home-top-banner-wrap .carousel-caption h3{ font-size: 30px; text-align: center;}
+    .home-top-banner-wrap .carousel-caption h2 {font-size: 30px; text-align: center;}
+    .home-top-banner-wrap .carousel-caption p {font-size: 12px;line-height: 16px;}
+    
+    .home-top-banner-wrap .carousel-caption{padding: 0 50px; bottom: auto; }    
+    
+    .home-top-banner-wrap .carousel-caption .btn-type1{margin-top: 15px; margin:15px auto 0; float: none; display: block; width: 193px; text-align: center;}
+    
+    
+    .home-top-banner-wrap .carousel-caption img{ max-height: 220px;}
+    
+    
+    
+    
+    /*Who we are section*/
+    .who-we-are-sec-left-box{ padding: 20px; margin-bottom: 25px;}
+    
+    
+    /*Industries section*/
+    .industries-we-serve-sec .nav{ justify-content: center;}
+    .industries-we-serve-sec .nav{ margin-bottom: 20px;}
+    .industries-we-serve-sec .nav li a{padding: 7px 15px; font-size: 13pt; margin: 0;}
+    
+    
+    /*capabilities section*/
+    .capabilities-sec-wrap .btn-type1{ float: left; margin-bottom: 40px;}
+    .capabilities-sec .bag-img img{ height: 680px;}
+    .capabilities-sec-box{ margin-bottom: 30px;}
+    
+    
+    
+    
+    
+    /*----------------------- Product details pouches page -----------------------------*/
+    
+    .product-details-top-sec-inner{ background-size: contain; padding-top: 300px !important; background-position: top center !important;}
+    
+    .product-details-top-sec-box:after{ display: none;}
+    .product-details-pouches-we-offer .our-prod-row a h4{ min-height: auto;}
+    .product-details-top-sec-box-inner{ padding: 15px;}
+    
+    
+    
+    
+     /*----------------------- Film page -----------------------------*/
+    .film-top-sec .product-details-top-sec-inner { background-size: 200px; padding-top: 300px; background-position: top center;}
+    .film-accordion-sec .accordion{ padding: 15px;}
+    
+    
+    
+    /*----------------------------Contact Us Page css---------------------------*/  
+    .title.innerHeading h2{ text-align: center !important;}
+    .floated-info-box a{  border-left:none; }
+    
+    .form-part form .row{ display: block;}
+    .form-part form .col{ width: 100%;}
+    
+    
+    
+    
+    /*----------------------------Printing Page css---------------------------*/ 
+    .graphics-top-circle-sec .title.innerHeading h2 {font-size: 30pt;}
+
+    
+    
+    
+    
+    /*----------------------------Innovation Page css---------------------------*/
+    .innovation-sec2{ background-size: 350px; background-position:  center 30px; padding-top: 330px;}
+    .innovation-sec3{ background-size: 350px;background-position:  center 30px; padding-top: 330px;}
+    
+    .innovation-sec-text-box h3{ font-size: 25pt; text-align: center;}
+    
+    
+    
+    
+     /*----------Sustainable css--------------*/
+    .sustainable-banner h2,.sustainable-banner h4{ font-size: 30pt !important;}
+    .sustainable-banner .inner-banner-txt {top: 20%;}
+    .sustainable-sec2 .graphics-sec-text-img{ order: 1;}
+    .sustainable-sec2 .graphics-sec-text-box{ order: 2;}
+    
+    
+    
+    /*----------------------------WIrehouse Page css---------------------------*/
+    .wirehouse-sec2-box-text .btn-type1{ font-size: 11pt; margin-bottom: 0;}
+    
+    #Sheet figure, #Tubing figure, #Coating figure{order: 1;}
+    .inner-banner-wrap2 img{ min-height: 500px;}
+    
+    .home-top-banner-wrap .carousel-caption .align-items-center .text-left{order:2; padding-bottom: 50px;}
+    
+    .home-top-banner-wrap .carousel-caption{position: relative;}
+    .home-top-banner-wrap .carousel-item{min-height: inherit; height: auto;}
+    
+    
+    .who-we-are-sec{background-image: none;}
+    .flexi-package-right-col .green-box h6{margin-bottom: 0;}
+    .flexi-package-right-col .green-box {margin: 0 -15px;}
+    
+    
+    .inner-banner-txt h2 { font-size: 18pt !important; margin-left: 8% !important;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+
+
+    
+    /*common css*/ 
+    .title h2 {font-size: 36px;}
+    .title h3 {font-size: 20px;}
+    .title2 h2 {font-size: 36px;}
+    
+    
+     /*top bar*/
+    .top-bar-r .btn{padding: 7px 16px;font-size: 14px;}
+    
+    /*Header css*/
+    .header {top: 70px;}
+    .inner-header {top: 70px !important;padding-top: 0 !important;padding-bottom: 0 !important;}
+    
+    /*Home Banner css*/
+    .home-top-banner-wrap .carousel-caption{padding: 0 50px; top: 95px;}
+    .home-top-banner-wrap .carousel-caption:before {border: 4px solid #a6ce2c; border-bottom: none; min-height: 50px; width:240px;}    
+    .home-top-banner-wrap .carousel-caption:after {border: 4px solid #a6ce2c; border-top: none; min-height: 50px; width:240px; margin-top: -30px;}   
+    .home-top-banner-wrap .carousel-caption h3 {font-size: 26px;}
+    .home-top-banner-wrap .carousel-caption h2 {font-size: 26px;}    
+    .home-top-banner-wrap .carousel-caption .btn-type1{ font-size: 10px;}
+    
+    
+     /*Who we are section css*/
+    .who-we-are-sec-left-box{ padding: 15px;}
+    .who-we-are-sec-left-box h3{ font-size: 18pt;}
+    
+    
+    
+    /*Flexible section section css*/
+    .flexi-package-right-col .green-box{ padding: 25px 15px;}
+    .productList .item figure img { height:auto;}
+    .productList .item .con p{min-height: inherit;}
+}
+
+
+
+
+
+
+
+
+
+
+
